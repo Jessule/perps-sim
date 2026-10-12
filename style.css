@@ -1,0 +1,31 @@
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,Segoe UI,Roboto,sans-serif;color:#1d1d24;
+background:linear-gradient(160deg,#fbf4f1 0%,#f1eef9 45%,#eef6f3 100%) fixed;padding:14px 14px 40px;max-width:520px;margin:auto}
+.mono,.big,#asks,#bids,.mid{font-family:ui-monospace,Menlo,Consolas,monospace}
+header{text-align:center}.brand{font-size:26px;font-weight:800}.logo{display:inline-block;background:#111;color:#fff;border-radius:8px;width:30px;height:30px;line-height:30px;font-size:18px}
+.sub{font-size:11px;color:#777;letter-spacing:.06em;margin-top:2px}.dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#2fbf71;box-shadow:0 0 6px #2fbf71}
+.sim{color:#c0623a;font-weight:700}.lbl{font-size:10px;letter-spacing:.12em;color:#999}
+.hero{margin:12px 2px}.big{font-size:44px;font-weight:800;letter-spacing:-1px}.big small{font-size:22px;color:#aaa}.usd{color:#888;font-size:14px;margin-top:-4px}
+.row{display:flex;justify-content:space-between;font-size:13px;margin-top:4px}.g{color:#1e9e5a;font-weight:700}.r{color:#d9534f;font-weight:700}.muted{color:#999;font-size:12px}
+.bar{height:6px;background:#e6e2ea;border-radius:4px;margin-top:10px;overflow:hidden}#barfill{height:100%;background:linear-gradient(90deg,#1e9e5a,#7ad3a4);width:10%}
+.glass{background:rgba(255,255,255,.55);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.8);
+box-shadow:0 8px 24px rgba(80,60,120,.10);border-radius:18px}.card{padding:14px;margin:14px 0}
+.ch{font-size:12px;letter-spacing:.08em;display:flex;align-items:center;gap:6px}.ch2{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
+.coin{width:20px;height:20px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;color:#fff;font-size:10px;font-weight:700}
+.simtag{margin-left:auto;font-size:9px;color:#b98}
+.chips{display:flex;gap:6px;overflow-x:auto;margin:8px 0;padding-bottom:4px}.chips button{border:0;border-radius:12px;padding:4px 9px;font-size:11px;background:#fff8;white-space:nowrap}
+.chips button.on{background:#1d1d24;color:#fff}
+.lv{display:flex;align-items:center;font-size:12px;height:19px}.lv span{width:84px;color:#555}.lv i{height:10px;border-radius:2px;display:block}
+.ask i{background:#f0b4a8}.bid i{background:#9fd8be}.mid{display:flex;justify-content:space-between;align-items:center;margin:4px 0}.mid b{font-size:20px}
+.sect{font-size:10px;letter-spacing:.12em;color:#999;margin:18px 4px 6px}
+#stack .pc{margin:-14px 6px 0;padding:12px 14px;border-radius:16px;position:relative}#stack .pc:first-child{margin-top:0}
+#stack .pc.top{margin:-6px 0 0;padding:14px}.pc .h{display:flex;align-items:center;gap:8px;font-weight:700;font-size:16px}
+.badge{margin-left:auto;background:#fff;border-radius:10px;padding:2px 8px;font-size:11px;font-weight:700;color:#444}
+.side{font-size:10px;padding:1px 6px;border-radius:8px}.L{background:#d7f3e4;color:#1e9e5a}.S{background:#fadcd8;color:#c94a3f}
+.pc svg{width:100%;height:46px;margin:6px 0;border-bottom:1px dashed #ccc}.pc .f{display:flex;justify-content:space-between;align-items:baseline}
+.pc .pnl{font-size:22px;font-weight:800}.pc .meta{font-size:11px;color:#888;margin-top:4px}
+.empty{color:#999;font-size:13px;text-align:center;padding:16px}
+.st{display:flex;align-items:center;gap:8px;background:#fffc;border-radius:12px;padding:10px;margin:6px 0;font-size:13px}.st .rs{font-size:10px;color:#999}.st .v{margin-left:auto;font-weight:700;text-align:right}
+.fd{font-size:12px;padding:7px 0;border-bottom:1px solid #0000000d}.fd b{font-size:11px}.fd .t{color:#aaa;font-size:10px;float:right}
+.fd.trade{background:#eaf7f0;border-radius:8px;padding:7px}.fd.veto b{color:#c94a3f}.fd.wait b{color:#b7862a}.fd.win{color:#1e9e5a}.fd.loss{color:#c94a3f}
+footer{text-align:center;color:#aaa;font-size:11px;margin-top:20px}footer button{margin-top:8px;border:0;background:#fff;border-radius:10px;padding:6px 12px;color:#c94a3f}
+.dl{display:block;text-align:center;margin:16px 0;padding:12px;border-radius:14px;background:#1d1d24;color:#fff;text-decoration:none;font-weight:700}
